@@ -1,0 +1,16 @@
+# Exclude the .env file
+.env
+
+# Exclude secrets directory
+secrets/
+
+# Exclude db creds in infra directory
+infra/db_credentials.txt
+
+# Exclude cached and compiled files
+__pycache__/
+*.pyc
+
+
+.idea
+

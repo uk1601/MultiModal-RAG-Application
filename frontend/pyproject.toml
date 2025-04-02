@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "frontend"
+version = "0.1.0"
+description = ""
+authors = ["Pemmaraju Venkat Akash Varun <pemmaraju.v@northeastern.edu>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+requests = "^2.32.3"
+streamlit-pdf-viewer = "^0.0.19"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.35"
+google-cloud-storage = "^2.18.2"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+psycopg2-binary = "^2.9.9"
+streamlit-extras = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

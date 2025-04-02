@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["uday kiran <udaykiranchintu16@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+python-dotenv = "^1.0.1"
+bcrypt = "^4.2.0"
+passlib = "^1.7.4"
+sqlalchemy = "^2.0.35"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+regex = "^2024.9.11"
+psycopg2-binary = "^2.9.9"
+pydantic-settings = "^2.5.2"
+python-multipart = "^0.0.12"
+pymongo = "^4.10.1"
+dnspython = "^2.7.0"
+google-cloud-storage = "^2.18.2"
+openai = "^1.51.2"
+mutagen = "^1.47.0"
+python-pptx = "^1.0.2"
+docx = "^0.2.4"
+pypdf2 = "^3.0.1"
+pandas = "^2.2.3"
+python-docx = "^1.1.2"
+llama-index-indices-managed-llama-cloud = "^0.3.1"
+docx2txt = "^0.8"
+xhtml2pdf = "^0.2.14"
+markdown = "^3.7"
+e2b_code_interpreter = "0.0.11b38"
+nest-asyncio = "^1.6.0"
+jupyter = "^1.1.1"
+aiostream = "^0.6.4"
+pymilvus = "^2.4.9"
+boto3 = "^1.35.52"
+snowflake-connector-python = "^3.12.3"
+llama-index-vector-stores-milvus = "^0.2.7"
+pinecone = {version = "5.1.0", extras = ["grpc"]}
+llama-index-vector-stores-pinecone = "^0.2.1"
+llama-index-readers-file = "^0.2.2"
+setuptools = "^75.3.0"
+llama-index-llms-nvidia = "^0.2.6"
+llama-index-embeddings-nvidia = "^0.2.4"
+fitz = "^0.0.1.dev2"
+pymupdf = "^1.24.13"
+markdown2 = "^2.5.1"
+weasyprint = "^63.0"
+pdfkit = "^1.0.0"
+llama-index-embeddings-openai = "^0.2.5"
+unstructured = {extras = ["all-docs"], version = "^0.16.4"}
+pdfminer-six = "^20240706"
+pi-heif = "^0.20.0"
+unstructured-inference = "^0.8.1"
+tabulate = "^0.9.0"
+llama-index-embeddings-huggingface = "^0.3.1"
+sentence-transformers = "^3.2.1"
+llama-index-callbacks-arize-phoenix = "^0.2.1"
+llama-index = "^0.11.21"
+sumy = "^0.11.0"
+nltk = "^3.9.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
